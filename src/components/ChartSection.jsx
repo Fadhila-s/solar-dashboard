@@ -34,7 +34,7 @@ function ChartSection() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      fetch("http://localhost:3000/api/history")
+      fetch("https://backend-solar-dashboard-production.up.railway.app/api/suhu")
         .then(res => res.json())
         .then(result => {
           console.log("HISTORY:", result); // debug
