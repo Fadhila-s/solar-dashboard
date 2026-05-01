@@ -5,7 +5,7 @@ function LogTable() {
   
   useEffect(() => {
     const interval = setInterval(() => {
-      fetch("https://backend-solar-dashboard-production.up.railway.app/api/suhu")
+      fetch("https://backend-solar-dashboard-production.up.railway.app/api/history")
         .then(res => res.json())
         .then(result => {
           console.log("HISTORY:", result); // debug
