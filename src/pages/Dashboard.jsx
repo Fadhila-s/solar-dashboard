@@ -15,7 +15,7 @@ function Dashboard() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      fetch("http://localhost:3000/api/suhu")
+      fetch("https://backend-solar-dashboard-production.up.railway.app/api/suhu")
         .then(res => res.json())
         .then(result => {
         console.log("DATA:", result); // 👈 cek ini
