@@ -1,8 +1,9 @@
-
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/solar-dashboard/',
+  base: process.env.GITHUB_ACTIONS
+    ? '/solar-dashboard/'
+    : '/',
   plugins: [react()],
 })
