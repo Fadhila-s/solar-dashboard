@@ -1,0 +1,49 @@
+
+/* =================================
+   SOLAR COOL - GLOBAL APP STYLE
+================================= */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global layout */
+* {
+  box-sizing: border-box;
+}
+
+/* Remove default button styling conflicts */
+button {
+  font-family: inherit;
+}
+
+/* Space dashboard scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050509;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #493477;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8b5cf6;
+}
+
+::selection {
+  background: rgba(139, 92, 246, 0.35);
+  color: white;
+}
