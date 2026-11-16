@@ -34,9 +34,9 @@ function Navbar() {
     <div className="fixed top-0 left-0 w-full z-50 bg-[#050509]/95 backdrop-blur-md px-6 md:px-10 py-4 flex justify-between items-center border-b border-white/10">
       {/* Kiri: Judul / Brand Dashboard */}
       <div className="flex items-center gap-2.5">
-        <FaSun className="text-yellow-400 text-lg animate-spin" style={{ animationDuration: "10s" }} />
+        <FaSun className="text-pink-400 text-lg animate-spin" style={{ animationDuration: "10s" }} />
         <span className="text-white font-semibold text-sm md:text-base tracking-wide">
-          Solar Panel Monitoring
+          Monitoring Panel surya
         </span>
       </div>
 
