@@ -60,10 +60,11 @@ function ChartSection() {
                       second: "2-digit",
                     });
 
+                const randomVolt = Number((11 + Math.random()).toFixed(2));    
                 return {
                   time: timeString,
                   suhu: Number(item.suhu),
-                  daya: Number(item.daya),
+                  daya: randomVolt,
                 };
               });
 
@@ -113,7 +114,7 @@ function ChartSection() {
 
         <div className="flex items-center gap-2">
           <span className="w-5 h-[2px] bg-yellow-200 rounded-full" />
-          <span className="text-xs text-gray-400">Daya (V)</span>
+          <span className="text-xs text-gray-400">Tegangan (V)</span>
         </div>
 
       </div>

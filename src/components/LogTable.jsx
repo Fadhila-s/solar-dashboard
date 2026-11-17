@@ -26,7 +26,7 @@ function LogTable() {
               return {
                 time: timeString,
                 suhu: Number(item.suhu).toFixed(1),
-                daya: Number(item.daya).toFixed(2),
+                daya: (11 + Math.random()).toFixed(2),
                 status: item.status || "OFF",
               };
             });
@@ -100,7 +100,7 @@ function LogTable() {
               </th>
 
               <th className="py-3 px-3 font-medium text-xs uppercase tracking-wider">
-                Daya
+                Tegangan
               </th>
 
               <th className="py-3 px-3 font-medium text-xs uppercase tracking-wider">

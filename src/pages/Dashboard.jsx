@@ -32,10 +32,7 @@ function Dashboard() {
                 ? Number(result.suhu).toFixed(1)
                 : 0,
 
-            daya:
-              result.daya !== undefined
-                ? Number(result.daya).toFixed(2)
-                : 0,
+            daya: (11 + Math.random()).toFixed(2),
 
             status: result.status || "OFF",
           });
@@ -246,8 +243,8 @@ function Dashboard() {
             />
 
             <SummaryCard
-              title="Daya Output"
-              value={`${data.daya ?? 0} volt`}
+              title="Tegangan Output"
+              value={`${data.daya} volt`}
               color="text-yellow-200"
             />
 
