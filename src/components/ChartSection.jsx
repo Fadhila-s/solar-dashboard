@@ -113,7 +113,7 @@ function ChartSection() {
 
         <div className="flex items-center gap-2">
           <span className="w-5 h-[2px] bg-yellow-200 rounded-full" />
-          <span className="text-xs text-gray-400">Daya (W)</span>
+          <span className="text-xs text-gray-400">Daya (V)</span>
         </div>
 
       </div>

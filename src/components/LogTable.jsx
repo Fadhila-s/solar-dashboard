@@ -132,7 +132,7 @@ function LogTable() {
                 </td>
 
                 <td className="py-4 px-3 text-yellow-200">
-                  {item.daya} watt
+                  {item.daya} volt
                 </td>
 
                 <td className="py-4 px-3">

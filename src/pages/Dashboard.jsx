@@ -247,7 +247,7 @@ function Dashboard() {
 
             <SummaryCard
               title="Daya Output"
-              value={`${data.daya ?? 0} watt`}
+              value={`${data.daya ?? 0} volt`}
               color="text-yellow-200"
             />
 
