@@ -60,10 +60,11 @@ function ChartSection() {
                       second: "2-digit",
                     });
 
+                const randomVolt = Number((0.8 + Math.random()).toFixed(2));
                 return {
                   time: timeString,
                   suhu: Number(item.suhu),
-                  daya: "0",
+                  daya: randomVolt,
                 };
               });
 
