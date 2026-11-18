@@ -63,7 +63,7 @@ function ChartSection() {
                 return {
                   time: timeString,
                   suhu: Number(item.suhu),
-                  daya: Number(item.daya),
+                  daya: "0",
                 };
               });
 

@@ -247,7 +247,7 @@ function Dashboard() {
 
             <SummaryCard
               title="Tegangan Output"
-              value={`${data.daya ?? 0} volt`}
+              value={`0 volt`}
               color="text-yellow-200"
             />
 

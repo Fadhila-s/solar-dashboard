@@ -26,7 +26,7 @@ function LogTable() {
               return {
                 time: timeString,
                 suhu: Number(item.suhu).toFixed(1),
-                daya: Number(item.daya).toFixed(2),
+                daya: "0",
                 status: item.status || "OFF",
               };
             });
